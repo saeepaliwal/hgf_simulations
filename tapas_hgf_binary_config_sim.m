@@ -137,7 +137,6 @@ c.rhosa = [NaN, 0, 0];
 % This should be fixed (preferably to 1) if the observation model
 % does not use mu_i+1 (kappa then determines the scaling of x_i+1).
 
-ka = 2.5;
 c.logkamu = [NaN, log(ka)];
 c.logkasa = [NaN,     5];
 
